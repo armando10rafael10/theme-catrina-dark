@@ -1,0 +1,33 @@
+{
+    "name": "catrina-dark",
+    "displayName": "catrina-dark",
+    "description": "Este es un tema inspirado en la celebre figura de la catrina, personaje representativo de la cultura mexicana, tomando como preferencia los colores predominantes.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [{
+            "label": "catrina dark",
+            "uiTheme": "vs-dark",
+            "path": "./themes/catrina dark-color-theme.json"
+        }]
+    },
+    "icon": "icons/icono.png",
+    "author": {
+        "name": "Armando Romero",
+        "email": "armando602vscode@gmail.com",
+        "url": "https://www.youtube.com/channel/UC9Ff1ypUKX3v6W1tIuGexjg"
+    },
+    "repository": {
+        "url": "https://github.com/armando10rafael10/theme-catrina-dark.git",
+        "type": "git"
+    },
+    "publisher": "catrina-dark-one",
+    "dependencies": {
+        "vsce": "^2.5.1",
+    }
+}
